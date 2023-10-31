@@ -12,7 +12,8 @@ public class Week03_01 extends JFrame{
 		
 		add(panel);
 		
-		JLabel label0=new JLabel("회원 등록하기");
+		JLabel label0=new JLabel();
+		label0.setText("학생 등록하기");
 		
 		/*JLabel label1=new JLabel("이름");
 		JLabel label2=new JLabel("패스워드");
@@ -25,7 +26,7 @@ public class Week03_01 extends JFrame{
 		JTextField field4=new JTextField(10);*/
 		
 		
-		
+		panel.add(new JLabel("학생 등록하기"));
 		panel.add(new JLabel("이름"));
 		panel.add(new JTextField(15));
 		panel.add(new JLabel("패스워드"));
